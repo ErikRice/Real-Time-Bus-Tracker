@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#map{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.map-background{
+    position: relative;
+
+}
+
+.button{
+    background-color: rgb(248, 252, 2);
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 1em;
+    border-radius: 15px;
+}
+
+.marker {
+    background-image: url(bus-15.svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
