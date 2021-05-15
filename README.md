@@ -1,12 +1,12 @@
 # Real Time Bus Tracker
-Real Time Bus Tracker is a program that pulls real time longitude and latitude coordinates from a Massachusetts Bus Transportation Authority server. This particular bus's route will travel from the Harvard's campus to MIT's campus.
+Real Time Bus Tracker is a program that pulls real time longitude and latitude coordinates from a Massachusetts Bus Transportation Authority server. This particular bus route will travel from the Harvard's campus to MIT's campus.
 
 The modifications that I've added to the original file are as follows:
 - a customized color scheme to the map
 - a button that triggers the function that pulls the coordinates from the data
 - a customized bus icon instead of the default marker
 - code that pulls only the coordinates from each bus stop in the data
-- code that updates the bus marker's coordinates to follow the real time bus's route 
+- code that updates the bus marker's coordinates to follow the real time bus stops
 
 ## How it works
 Click the yellow button in the top left corner to start the program. You will see the bus marker jump to the first stop. Every 12 seconds the bus will be updated with the next stop's coordinates. While the bus is being updated you may zoom in or out on the map. Keep in mind that because some bus stops are longer than others, the next location that is pulled may be a small to no change at all. The program will continue to pull data from the MBTA server for as long as you let it.  
@@ -14,6 +14,7 @@ Click the yellow button in the top left corner to start the program. You will se
 In the future I hope to add some additional features to the project such as:
 - a stop button to stop the program from grabbing new coordinates
 - a hud or pop-up that displays the time of each stop
+- multiple buses to represent all the buses on the route
 
 MIT License
 
